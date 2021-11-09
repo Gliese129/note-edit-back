@@ -1,4 +1,4 @@
-package com.gliese.noteedit.entity;
+package noteedit.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

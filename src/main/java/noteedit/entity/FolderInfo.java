@@ -1,4 +1,4 @@
-package com.gliese.noteedit.entity;
+package noteedit.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.AllArgsConstructor;

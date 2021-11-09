@@ -1,8 +1,8 @@
-package com.gliese.noteedit.service;
+package noteedit.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.gliese.noteedit.entity.Note;
-import com.gliese.noteedit.mapper.NoteMapper;
+import noteedit.entity.Note;
+import noteedit.mapper.NoteMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.gliese.noteedit.entity;
+package noteedit.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -17,13 +17,11 @@ import java.util.List;
 public class FileInfo {
     @TableId(type = IdType.AUTO)
     private Long id;
-
     private String fileName;
     private String fileType;
     @TableField(exist = false)
     private List<String> folders;
     private String realPath;
-
     private Long folderId;
 
     @Override

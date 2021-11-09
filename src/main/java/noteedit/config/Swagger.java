@@ -1,4 +1,4 @@
-package com.gliese.noteedit.config;
+package noteedit.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class Swagger {
                 .apiInfo(apiInfo())
                 .groupName("Gliese")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.gliese.noteedit.controller"))
+                .apis(RequestHandlerSelectors.basePackage("noteedit.controller"))
                 //.paths(PathSelectors.ant("/hello/**"))
                 .build();//构建者模式
     }

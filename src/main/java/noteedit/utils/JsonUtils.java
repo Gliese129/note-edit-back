@@ -1,4 +1,4 @@
-package com.gliese.noteedit.utils;
+package noteedit.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

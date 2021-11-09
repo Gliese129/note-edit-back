@@ -1,7 +1,7 @@
-package com.gliese.noteedit.mapper;
+package noteedit.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gliese.noteedit.entity.Note;
+import noteedit.entity.Note;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

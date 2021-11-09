@@ -1,11 +1,11 @@
-package com.gliese.noteedit;
+package noteedit;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.gliese.noteedit.mapper")
+@MapperScan("noteedit.mapper")
 public class NoteEditApplication {
 
     public static void main(String[] args) {

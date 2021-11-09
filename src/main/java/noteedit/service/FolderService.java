@@ -1,13 +1,13 @@
-package com.gliese.noteedit.service;
+package noteedit.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.gliese.noteedit.entity.FileInfo;
-import com.gliese.noteedit.entity.FolderInfo;
-import com.gliese.noteedit.mapper.FolderMapper;
-import com.gliese.noteedit.utils.BasicUtils;
-import com.gliese.noteedit.utils.FileUtils;
-import com.gliese.noteedit.utils.JsonUtils;
+import noteedit.entity.FileInfo;
+import noteedit.entity.FolderInfo;
+import noteedit.mapper.FolderMapper;
+import noteedit.utils.BasicUtils;
+import noteedit.utils.FileUtils;
+import noteedit.utils.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

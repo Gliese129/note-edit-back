@@ -1,7 +1,7 @@
-package com.gliese.noteedit.utils;
+package noteedit.utils;
 
-import com.gliese.noteedit.entity.FileInfo;
-import com.gliese.noteedit.entity.FolderInfo;
+import noteedit.entity.FileInfo;
+import noteedit.entity.FolderInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -122,10 +122,10 @@ public class FileUtils {
 
     /**
      * 删除文件
-     * @param realPath
+     * @param realPath 真实地址
      */
-    public static void deleteFile(String realPath) {
+    public static boolean deleteFile(String realPath) {
         File file = new File(realPath);
-        file.delete();
+        return file.delete();
     }
 }
